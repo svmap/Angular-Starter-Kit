@@ -1,0 +1,24 @@
+
+<div fxLayout="column" fxFlexFill fxLayoutGap="30px">
+  <div fxLayout="row" fxFlexAlign="center">
+      <h1>{{data.title}}</h1>
+  </div>
+
+
+  <div fxLayout="row" fxFlexAlign="center">
+    <h2>{{data.body}}</h2>
+  </div>
+
+  <div fxFlex="grow" fxLayout="row"  fxLayoutAlign="center end" fxLayoutGap="10px">
+    <button mat-raised-button (click)="onCancel()">Cancel</button>
+    <button mat-raised-button (click)="onDelete()">Delete</button>
+  </div>
+</div>
+
+
+
+
+
+
+
+
